@@ -182,11 +182,11 @@ public class PetController {
     }
 
     private List<Pet> findPetsByFilters(
-            String species,
-            String gender,
-            String location,
-            Integer age,
-            String status) {
+        String species,
+        String gender,
+        String location,
+        Integer age,
+        String status) {
 
         boolean hasSpecies = species != null;
         boolean hasGender = gender != null;
